@@ -105,7 +105,26 @@ var SearchComponent = React.createClass({
 
 //1.2.BodyComponent Starts
 
+var HeadComponent = React.createClass({
 
+    render: function()  {
+
+       return(
+
+        <div>
+    
+        <AttColTitleComponent />
+        <AttConComponent  />
+      
+
+        </div>
+
+
+        );
+
+    }
+
+});
 
 
 //1.2.BodyComponent ends
